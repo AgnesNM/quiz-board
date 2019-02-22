@@ -22,7 +22,7 @@ Show multiple choice questions that can be answered on the site                 
 Show the points assigned to each question                                                      | 1. Where do we put the JavaScript element on HTML? [checkbox:unchecked] <script> [checkbox:unchecked]<js> (3 points)  | 1. Where do we put the JavaScript element on HTML? [checkbox:checked] <script> [3 points] [checkbox:unchecked]<js>
 Allow the user to select the correct answer on the web page                                    | 1. Where do we put the JavaScript element on HTML? [checkbox:unchecked] <script> [checkbox:unchecked]<js> (3 points)  | 1. Where do we put the JavaScript element on HTML? [checkbox:checked] <script> [checkbox:unchecked]<js>
 Allow the user to submit the correct answers on the web page after they are done with the quiz | submit button: [>> SUBMIT <<]                                                                                         | submit button: [>> SUBMIT <<]       
-Show the user score after they are done submitting the quiz answers                            | submit button: [>> SUBMIT<<]                                                                                          | "Your score is 80%, excellent"
+Show the user their score after they are done submitting the quiz answers                            | submit button: [>> SUBMIT<<]                                                                                          | "Your score is 80%, excellent"
 
 
 
