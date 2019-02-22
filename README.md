@@ -16,16 +16,16 @@ HTML, CSS, Bootstrap and jquery
 ## Contribution - BDD
 If you would like to contribute to this project, the following BDD specs should help you:smile:
 
-Behavior                                                                                       |  Input Example                                                                                                             | Output Example
------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------
-Show multiple choice questions that can be answered on the site                                | 1. Where do we put the JavaScript element on HTML? #[checkbox:unchecked] <script> #[checkbox:unchecked] <js>             | 1. Where do we put the JavaScript element on HTML? # [checkbox:checked] <script> # [checkbox:unchecked]<js>
-Show the points assigned to each question                                                      | 1. Where do we put the JavaScript element on HTML? #[checkbox:unchecked] <script> #[checkbox:unchecked] <js> (3 points)  | 1. Where do we put the JavaScript element on HTML? #[checkbox:checked] <script> #[checkbox:unchecked]<js>
-Allow the user to select the correct answer on the web page                                    | 1. Where do we put the JavaScript element on HTML? #[checkbox:unchecked] <script> #[checkbox:unchecked] <js> (3 points)  | 1. Where do we put the JavaScript element on HTML? #[checkbox:checked] <script> #[checkbox:unchecked]<js>
-Allow the user to submit the correct answers on the web page after they are done with the quiz | submit button: [>> SUBMIT <<]                                                                                             submit button: [>> SUBMIT <<]
-Show the user score after they are done submitting the quiz answers                            | submit button: [>> SUBMIT<<] <<]                                                                                            "Your score is 80%, excellent"
+Behavior                                                                                       |  Input Example                                                                                                        | Output Example
+-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|----------
+Show multiple choice questions that can be answered on the site                                | 1. Where do we put the JavaScript element on HTML? [checkbox:unchecked] <script> [checkbox:unchecked]<js>             | 1. Where do we put the JavaScript element on HTML? [checkbox:checked] <script> [checkbox:unchecked]<js>
+Show the points assigned to each question                                                      | 1. Where do we put the JavaScript element on HTML? [checkbox:unchecked] <script> [checkbox:unchecked]<js> (3 points)  | 1. Where do we put the JavaScript element on HTML? [checkbox:checked] <script> [checkbox:unchecked]<js>
+Allow the user to select the correct answer on the web page                                    | 1. Where do we put the JavaScript element on HTML? [checkbox:unchecked] <script> [checkbox:unchecked]<js> (3 points)  | 1. Where do we put the JavaScript element on HTML? [checkbox:checked] <script> [checkbox:unchecked]<js>
+Allow the user to submit the correct answers on the web page after they are done with the quiz | submit button: [>> SUBMIT <<]                                                                                         | submit button: [>> SUBMIT <<]       
+Show the user score after they are done submitting the quiz answers                            | submit button: [>> SUBMIT<<]                                                                                          | "Your score is 80%, excellent"
 
 
 
 
 ## License
-Detailed license information can be found on the LICENSE.md fileCopyright (c) 2019 ** Agnes Mwaniki **
+Detailed license information can be found on the LICENSE.md file.Copyright (c) 2019 ** Agnes Mwaniki **
