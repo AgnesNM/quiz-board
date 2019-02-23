@@ -35,13 +35,11 @@ image {
 
 .green-background {
   background-color: green;
-  color: white
-}
+  }
 
 .blue-background {
   background-color: blue;
-  color: white;
-}
+  }
 
 .well {
   padding: 20px;
@@ -49,4 +47,4 @@ image {
 }
 .panel-title{
   color:red;
-}
+  }
