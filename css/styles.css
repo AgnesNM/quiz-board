@@ -2,8 +2,7 @@ body{
   font-size:5em;
   font-style: normal;
   font-family:sans-serif;
-  color:green;
-}
+  }
 .indent{
   width:30%
   float:right;
@@ -24,4 +23,12 @@ h2{
 }
 image{
   height:inherit;
+}
+.green-background{
+  background-color:green;
+  color:white
+}
+.blue-background{
+  background-color: blue;
+  color:white;
 }
