@@ -21,29 +21,25 @@
 
   <form id="quiz">
     <p>1.What function do you use to show some information to the user? (4 points)</p>
-    <input type="radio" name="answer1" value="q1Ans1" id="q1Ans1">.prompt();<br>
-    <input type="radio" name="answer1" value="q1Ans2" id="q1Ans2">.alert();<br>
-    <input type="radio" name="answer1" value="q1Ans3" id="q1Ans3">.confirm();<br>
+    <input type="radio" name="q1" value=".prompt()" id="q1A1">.prompt();<br>
+    <input type="radio" name="q1" value=".alert();" id="q1A2">.alert();<br>
+    <input type="radio" name="q1" value=".confirm();" id="q1A3">.confirm();<br>
     <p>2.How do you write 'f' is not equal to 15? (4 points)</p>
-    <input type="radio" name="answer2" value="q2Ans1" id="q2Ans1">f=(!15)<br>
-    <input type="radio" name="answer2" value="q2Ans2" id="q2Ans2">f!== 15<br>
-    <input type="radio" name="answer2" value="q2Ans3" id="q2Ans3">f==!15<br>
+    <input type="radio" name="q2" value="f=(!15)" id="q2A1">f=(!15)<br>
+    <input type="radio" name="q2" value=">f!== 15" id="q2A2">f!== 15<br>
+    <input type="radio" name="q2" value="f==!15" id="q2A3">f==!15<br>
     <p>3.How do you write comments in JavaScript? (4 points)</p>
-    <input type="radio" name="answer3" value="q3Ans1" id="q3Ans1">**jQuery function<br>
-    <input type="radio" name="answer3" value="q3Ans2" id="q3Ans2">"jQuery function"<br>
-    <input type="radio" name="answer3" value="q3Ans3" id="q3Ans3">//jQuery function<br>
+    <input type="radio" name="q3" value="**jQuery function" id="q3A1">**jQuery function<br>
+    <input type="radio" name="q3" value="jQuery function" id="q3A2">"jQuery function"<br>
+    <input type="radio" name="q3" value="//jQuery function" id="q3A3">//jQuery function<br>
     <p>4.How do you write a JavaScript array?</p>
-    <input type="radio" name="answer4" value="q4Ans1" id="q4Ans1">var numbers = ["1","2","3"]<br>
-    <input type="radio" name="answer4" value="q4Ans2" id="q4Ans2">var numbers = ("1","2","3")<br>
-    <input type="radio" name="answer4" value="q4Ans3" id="q4Ans3">var numbers = "1","2","3"<br>
-    <p>5.How do you round off 6.86754 to the nearest integer? (4 points)</p>
-    <input type="radio" name="answer5" value="q5Ans1" id="q5Ans1">6.86754.toString(5);<br>
-    <input type="radio" name="answer5" value="q5Ans2" id="q5Ans2">6.86754.toExponential(5);<br>
-    <input type="radio" name="answer5" value="q5Ans3" id="q5Ans3">6.86754.toFixed(5);<br>
+    <input type="radio" name="q4" value="var numbers = []" id="q4A1">var numbers = []<br>
+    <input type="radio" name="q4" value="var numbers = ()" id="q4A2">var numbers = ()<br>
+    <input type="radio" name="q4" value=""1","2","3"" id="q4Ans3">var numbers = "1","2","3"<br>
     <button id="quiz-ans" type="submit" name="button">Submit</button>
     <button type="reset" name="button">Reset</button>
   </form>
-
+<div id="total"></div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
