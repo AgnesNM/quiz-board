@@ -1,4 +1,7 @@
 
+
+
+//UI Logic
       $(document).ready(function() {
         $("button#green").click(function() {
           $("body").removeClass();
