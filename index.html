@@ -12,21 +12,22 @@
   <div class="container">
 
 
-  <div class="panel">
+    <div class="panel">
 
 
-    <div class="indent">
-      <div class="image">
+      <div class="indent">
+        <div class="jumbotron">
+          <h1>Quiz Board</h1>
+          <p>
+            <div class="small"></div>Test your JavaScript knowledge!
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://images.unsplash.com/photo-1529429612779-c8e40ef2f36d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" ; alt="student">
+        </div>
 
-      </div>
-      <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400__340.png" ; alt="student">
 
-      <div class="jumbotron">
-        <h1>Quiz Board</h1>
-        <p>
-          <div class="small"></div>Test your JavaScript knowledge!
-        </p>
-      </div>
+
 
 
 
@@ -48,61 +49,93 @@
 
 
 
-      </div>
-      <div class="well">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-
-
-
-        <h3 class="panel-title">Quiz Time!</h3>
         </div>
-        <p>We hope studying JavaScript has been fun!</p>
-        <p>It's that time when we get to see whether we have understood what we have been learning.</p>
-        <p>Here is a short quiz for you.</p>
-        <p>Choose <strong>only one answer</strong> per question.</p>
-        <p>Once you submit, you will see your score and whether your performance is excellent, fair or poor.</p>
-        <p>If it is poor, you need to retake the test.</p>
-        <img src="" alt="">
-        <p>Let's get started! All the best!</p>
-        <form id="quiz">
-        <p>1.What function do you use to show some information to the user? (4 points)</p>
-          <input type="radio" name="q1" value=".prompt()" id="q1A1">.prompt();<br>
-          <input type="radio" name="q1" value=".alert();" id="q1A2">.alert();<br>
-          <input type="radio" name="q1" value=".confirm();" id="q1A3">.confirm();<br>
-          <p>2.How do you write 'f' is not equal to 15? (4 points)</p>
-          <input type="radio" name="q2" value="f=(!15)" id="q2A1">f=(!15)<br>
-          <input type="radio" name="q2" value=">f!== 15" id="q2A2">f!== 15<br>
-          <input type="radio" name="q2" value="f==!15" id="q2A3">f==!15<br>
-          <p>3.How do you write comments in JavaScript? (4 points)</p>
-          <input type="radio" name="q3" value="**jQuery function" id="q3A1">**jQuery function<br>
-          <input type="radio" name="q3" value="jQuery function" id="q3A2">"jQuery function"<br>
-          <input type="radio" name="q3" value="//jQuery function" id="q3A3">//jQuery function<br>
-          <p>4.How do you write a JavaScript array?</p>
-          <input type="radio" name="q4" value="var numbers = []" id="q4A1">var numbers = []<br>
-          <input type="radio" name="q4" value="var numbers = ()" id="q4A2">var numbers = ()<br>
-          <input type="radio" name="q4" value="" 1","2","3"" id="q4Ans3">var numbers = "1","2","3"<br>
-          <button id="quiz-ans" type="submit" name="button">Submit</button>
-          <button type="reset" name="button">Reset</button>
-        </form>
-        <div class="panel-footer">
+        <div class="well">
+          <div class="panel panel-default">
+            <div class="panel-heading">
 
-        </div>
-        <div id="total"></div>
+
+
+              <h3 class="panel-title">Quiz Time!</h3>
+            </div>
+            <p>We hope studying JavaScript has been fun!</p>
+            <p>It's that time when we get to see whether we have understood what we have been learning.</p>
+            <p>Here is a short quiz for you.</p>
+            <p>Choose <strong>only one answer</strong> per question.</p>
+            <p>Once you submit, you will see your score and whether your performance is excellent, fair or poor.</p>
+            <p>If it is poor, you need to retake the test.</p>
+            <img src="" alt="">
+            <p>Let's get started! All the best!</p>
+            <form id="quiz">
+              <p>1.What function do you use to show some information to the user? (4 points)</p>
+              <div class="radio">
+                <input type="radio" name="q1" value="prompt();" id="q1A1">.prompt();<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q1" value=".alert();" id="q1A2">.alert();<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q1" value="confirm();" id="q1A3">.confirm();<br>
+              </div>
+
+              <p>2.How do you write 'f' is not equal to 15? (4 points)</p>
+              <div class="radio">
+
+                <input type="radio" name="q2" value="f=(!15)" id="q2A1">f=(!15)<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q2" value="f!== 15" id="q2A2">f!== 15<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q2" value="f==!15" id="q2A3">f==!15<br>
+              </div>
+
+              <p>3.How do you write comments in JavaScript? (4 points)</p>
+              <div class="radio">
+
+
+                <input type="radio" name="q3" value="**jQuery function" id="q3A1">**jQuery function<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q3" value="jQuery function" id="q3A2">"jQuery function"<br>
+              </div>
+              <div class="radio">
+
+                <input type="radio" name="q3" value="//jQuery function" id="q3A3">//jQuery function<br>
+              </div>
+              <p>4.How do you write a JavaScript array?</p>
+              <div class="radio">
+                <input type="radio" name="q4" value="var numbers = []" id="q4A1">var numbers = []<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q4" value="var numbers = ()" id="q4A2">var numbers = ()<br>
+              </div>
+              <div class="radio">
+                <input type="radio" name="q4" value="var numbers = "1","2","3"" id="q4Ans3">var numbers = "1","2","3"<br>
+              </div>
+
+              <button id="quiz-ans" type="submit" name="button">Submit</button>
+              <button type="reset" name="button">Reset</button>
+            </form>
+            <div class="panel-footer">
+
+            </div>
+            <div id="total"></div>
           </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-      </div>
-      <div class="b-color">
-        <p>Want your background to have a different colour? Click any of the buttons below:</p>
-        <button class="btn btn-success" id="green">Black Background</button>
-        <button class="btn btn-info" id="blue">Blue Background</button>
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          <script src="js/scripts1.js"></script>
+        </div>
+        <div class="b-color">
+          <p>Want your background to have a different colour? Click any of the buttons below:</p>
+          <button class="btn btn-success" id="green">Black Background</button>
+          <button class="btn btn-info" id="blue">Blue Background</button>
+        </div>
       </div>
     </div>
   </div>
-  </div>
+  
 </body>
 
 </html>

@@ -17,6 +17,7 @@ img {
 
 .jumbotron>h1 {
   font-size: 5em;
+  color:green;
 }
 
 h2 {
@@ -29,7 +30,7 @@ h2 {
 }
 
 image {
-  height:auto;
+  height:50px;;
   max-width:100%
 }
 
