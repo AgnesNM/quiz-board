@@ -19,14 +19,16 @@ $(document).ready(function() {
         if (q1 === answers[0]) {
           score += points;
         }
-        if (q2 === answers[1]) {
+        else if (q2 === answers[1]) {
           score += points;
         }
-        if (q3 === answers[2]) {
+        else if (q3 === answers[2]) {
           score += points;
         }
-        if (q4 === answers[3]) {
+        else if (q4 === answers[3]) {
           score += points;
+        } else {
+
         }
 
         function percentage(score) {
