@@ -30,4 +30,4 @@ Show the user performance status after they are done submitting the quiz answers
 
 
 ## License
-Detailed license information can be found on the LICENSE.md file.Copyright (c) 2019 ** Agnes Mwaniki **
+Detailed license information can be found here: (https://github.com/AgnesNM/quiz-board/blob/master/LICENSE.md/) [Licensing Information] Copyright (c) 2019 ** Agnes Mwaniki **
